@@ -24,7 +24,21 @@ class Model {
                 return
             }
             
+            do {
+                
+                let decoder = JSONDecoder()
+                
+                let response = try decoder.decode(Response.self, from: data!)
+                
+                dump(response)
+                
+            }
             
+            catch {
+                
+                return
+            }
+
         }
         
         dataTask.resume()
