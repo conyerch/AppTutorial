@@ -13,6 +13,9 @@
 		B90F9A402B196AAD00E17DD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B90F9A3E2B196AAD00E17DD6 /* Main.storyboard */; };
 		B90F9A422B196AAE00E17DD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B90F9A412B196AAE00E17DD6 /* Assets.xcassets */; };
 		B90F9A452B196AAE00E17DD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B90F9A432B196AAE00E17DD6 /* LaunchScreen.storyboard */; };
+		B90F9A6D2B199FF600E17DD6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90F9A6C2B199FF600E17DD6 /* Constants.swift */; };
+		B90F9A6F2B19A38800E17DD6 /* Video.Swift in Sources */ = {isa = PBXBuildFile; fileRef = B90F9A6E2B19A38800E17DD6 /* Video.Swift */; };
+		B90F9A712B19A3E900E17DD6 /* Model.Swift in Sources */ = {isa = PBXBuildFile; fileRef = B90F9A702B19A3E900E17DD6 /* Model.Swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		B90F9A412B196AAE00E17DD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B90F9A442B196AAE00E17DD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B90F9A462B196AAE00E17DD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B90F9A6C2B199FF600E17DD6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B90F9A6E2B19A38800E17DD6 /* Video.Swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.Swift; sourceTree = "<group>"; };
+		B90F9A702B19A3E900E17DD6 /* Model.Swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.Swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				B90F9A412B196AAE00E17DD6 /* Assets.xcassets */,
 				B90F9A432B196AAE00E17DD6 /* LaunchScreen.storyboard */,
 				B90F9A462B196AAE00E17DD6 /* Info.plist */,
+				B90F9A6C2B199FF600E17DD6 /* Constants.swift */,
+				B90F9A6E2B19A38800E17DD6 /* Video.Swift */,
+				B90F9A702B19A3E900E17DD6 /* Model.Swift */,
 			);
 			path = App3;
 			sourceTree = "<group>";
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B90F9A3D2B196AAD00E17DD6 /* ViewController.swift in Sources */,
+				B90F9A6F2B19A38800E17DD6 /* Video.Swift in Sources */,
 				B90F9A392B196AAD00E17DD6 /* AppDelegate.swift in Sources */,
+				B90F9A712B19A3E900E17DD6 /* Model.Swift in Sources */,
 				B90F9A3B2B196AAD00E17DD6 /* SceneDelegate.swift in Sources */,
+				B90F9A6D2B199FF600E17DD6 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
