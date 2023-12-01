@@ -30,7 +30,5 @@ class Model {
         dataTask.resume()
             
         }
-        
-        
     }
 
