@@ -19,7 +19,7 @@ class Model {
         
         let session = URLSession.shared
         
-        let dataTask = session.dataTask(with: url!) { (data, status, error) in
+        let dataTask = session.dataTask(with: url!) { (data, response, error) in
             if error != nil || data == nil {
                 return
             }
@@ -35,8 +35,8 @@ class Model {
             }
             
             catch {
+                print("error recieved")
                 
-                return
             }
 
         }
