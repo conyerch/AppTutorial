@@ -7,7 +7,13 @@
 
 import Foundation
 
+protocol modelDelegate {
+    func videosFetched(_ videos: [Video])
+}
+
 class Model {
+    
+    var delegate: modelDelegate?
     
     func getVideos() {
         
@@ -29,6 +35,15 @@ class Model {
                 let decoder = JSONDecoder()
                 
                 let response = try decoder.decode(Response.self, from: data!)
+                
+                DispatchQueue.main.sync {
+                    
+                    if response.items != nil {
+                        
+                        self.delegate?.videosFetched(response.items!)
+                        
+                    }
+                }
                 
                 dump(response)
                 
